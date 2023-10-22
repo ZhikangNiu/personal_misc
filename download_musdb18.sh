@@ -2,14 +2,14 @@
 
 # more info -> https://zenodo.org/record/4060432
 
-FSD50K_NAMES=(musdb18.zip)
+DATA_NAMES=(musdb18.zip)
 PREFIX_URL="https://zenodo.org/records/1117372/files/"
 
 OUTPUT_PATH="/data/v-zhikangniu/MUSDB18/"
 
 # mkdir -p $OUTPUT_PATH/{clean_fullband,noise_fullband}
 
-for DATA in ${FSD50K_NAMES[@]}
+for DATA in ${DATA_NAMES[@]}
 do
     URL="$PREFIX_URL/$DATA?download=1"
     echo "Download: $URL"
