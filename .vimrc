@@ -1,3 +1,6 @@
+" --- General Settings / 通用设置 ---
+set nocompatible             " Use Vim settings that are compatible with older versions of Vim. 使用与较旧版本的Vim兼容的Vim设置
+
 " --- Syntax Highlighting / 语法高亮 ---
 syntax on                   " Enable syntax highlighting. 开启语法高亮
 
